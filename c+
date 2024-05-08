@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 1;
+    goto my_label;
+    cout << "This line will not be executed." << endl;
+
+my_label:
+    cout << "Value of x: " << x << endl;
+
+    return 0;
+}
